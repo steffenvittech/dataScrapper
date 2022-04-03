@@ -1,6 +1,6 @@
 import cbpro
 
-import psycopg
+import psycopg2
 public_client = cbpro.PublicClient()
 
 
