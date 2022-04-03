@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM arm64v8/python:3
 RUN mkdir /app
 ADD . /app
 WORKDIR /app
