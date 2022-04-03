@@ -1,6 +1,7 @@
 import cbpro
 
 import psycopg2
+import time
 public_client = cbpro.PublicClient()
 
 
@@ -37,3 +38,4 @@ while True:
         float(eth_result["size"]),)
         mycursor.execute(sql, val)
         conn.commit()
+    time.sleep(30)
